@@ -9,10 +9,10 @@ driver.get("https://westvalley.fastime.com")
 # Assignment Number and Employee ID to login
 ass_number = driver.find_element_by_id("txtOrderNumber")
 ass_number.clear()
-ass_number.send_keys("94337")
+ass_number.send_keys("") ## assignment number
 emp_id = driver.find_element_by_name("txtSSN")
 emp_id.clear()
-emp_id.send_keys("194528")
+emp_id.send_keys("") ## employee id
 # click Login button
 driver.find_element_by_id("btnSubmit").click()
 # terms page
